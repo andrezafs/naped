@@ -1,0 +1,37 @@
+@import 'variables';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 6.5%;
+}
+
+body {
+    background-color: $black;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+    font: 500 1.6rem 'Inter';
+    color: $white;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+   font: 400 4.8rem 6rem 'Lexend Deca';
+   color: $white;
+}
+h2 {
+    font: 500 2em 3.2rem 'Inter'; 
+    color: $grey-ligth;
+}
+h3 {
+    font: 400 2.4rem 3.4rem 'Lexend Deca';
+    color: $white;
+}
+h4 {
+    font:  400 1.3rem 2rem 'Lexend Deca';
+}
