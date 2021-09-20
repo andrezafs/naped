@@ -65,6 +65,11 @@ h4 {
   font: 400 1.3rem "Lexend Deca";
 }
 
+button {
+  cursor: pointer;
+  border: none;
+}
+
 @font-face {
   font-family: "Inter";
   src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
@@ -86,9 +91,30 @@ h4 {
   font-style: normal;
   font-display: swap;
 }
-#logo {
+nav {
+  height: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .nav-list {
+  display: flex;
+  align-items: center;
+}
+nav .nav-list a {
+  margin: 0 3rem;
+}
+nav #logo {
   font: 400 2.4rem "Lexend Deca";
   color: #8557E6;
+}
+nav button {
+  background-color: transparent;
+  border: 0.1rem solid #8557E6;
+  border-radius: 10rem;
+  padding: 0.5rem 2rem;
+  font: 400 1.4rem "Lexend Deca";
+  color: #FEFBEB;
 }
 
 /*# sourceMappingURL=styles.css.map */

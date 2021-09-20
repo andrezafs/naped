@@ -3,7 +3,30 @@
 @import 'mixins';
 
 
-#logo {
-    font: 400 2.4rem 'Lexend Deca';
-    color: $color-primary;
-} 
+nav {
+    height: 5.2rem;
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        a {
+            margin:  0 3rem;
+        }
+    }
+    #logo {
+        font: 400 2.4rem 'Lexend Deca';
+        color: $color-primary;
+    } 
+
+    button {
+        background-color:transparent;
+       border: .1rem solid $color-primary;
+       border-radius: 10rem;
+       padding: .5rem 2rem;
+       font: 400 1.4rem 'Lexend Deca';
+       color: $white;
+    }
+}
