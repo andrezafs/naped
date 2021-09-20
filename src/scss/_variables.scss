@@ -1,0 +1,32 @@
+// CORES
+
+$color-primary: #8557E6;
+$black: #13131F;
+$grey-dark: #282830;
+$grey-ligth:#C4C4C4;
+$white: #FEFBEB;
+
+
+// FONTES
+
+@font-face {
+    font-family: 'Inter', sans-serif ;
+    src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter', sans-serif ;
+    src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Lexend Deca', sans-serif ;
+    src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
