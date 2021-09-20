@@ -9,10 +9,13 @@
 body {
     background-color: $black;
 }
-#logo {
-    font: 400 2.4rem 'Lexend Deca';
-    color: $color-primary;
-} 
+.maxWidth {
+    max-width: 120rem;
+    margin: 0 auto;
+
+    // align-items: center;
+}
+
 a {
     text-decoration: none;
     outline: 0;

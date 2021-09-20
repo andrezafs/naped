@@ -30,9 +30,9 @@ body {
   background-color: #13131F;
 }
 
-#logo {
-  font: 400 2.4rem "Lexend Deca";
-  color: #8557E6;
+.maxWidth {
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 a {
@@ -85,6 +85,10 @@ h4 {
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+#logo {
+  font: 400 2.4rem "Lexend Deca";
+  color: #8557E6;
 }
 
 /*# sourceMappingURL=styles.css.map */

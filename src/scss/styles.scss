@@ -1,3 +1,9 @@
 @import 'reset';
 @import 'variables';
 @import 'mixins';
+
+
+#logo {
+    font: 400 2.4rem 'Lexend Deca';
+    color: $color-primary;
+} 
