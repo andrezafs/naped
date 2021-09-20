@@ -122,11 +122,11 @@ nav .nav-list a::after {
   bottom: -0.8rem;
   transition: 0.3s ease-in;
 }
-nav .nav-list #logo {
+nav #logo {
   font: 400 2.4rem "Lexend Deca";
   color: #8557E6;
 }
-nav .nav-list button {
+nav button {
   background-color: transparent;
   border: 0.1rem solid #8557E6;
   border-radius: 10rem;

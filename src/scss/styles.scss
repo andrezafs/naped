@@ -12,7 +12,7 @@ nav {
     .nav-list {
         display: flex;
         align-items: center;
-        
+       
         a {
             position: relative;
             margin:  0 3rem;
@@ -35,18 +35,20 @@ nav {
                 transition: 0.3s ease-in;
         }
     }
-    #logo {
-        font: 400 2.4rem 'Lexend Deca';
-        color: $color-primary;
-    } 
+ 
 
-    button {
-        background-color:transparent;
-       border: .1rem solid $color-primary;
-       border-radius: 10rem;
-       padding: .5rem 2rem;
-       font: 400 1.4rem 'Lexend Deca';
-       color: $white;
-    }
+ 
+}
+#logo {
+    font: 400 2.4rem 'Lexend Deca';
+    color: $color-primary;
+} 
+button {
+    background-color:transparent;
+   border: .1rem solid $color-primary;
+   border-radius: 10rem;
+   padding: .5rem 2rem;
+   font: 400 1.4rem 'Lexend Deca';
+   color: $white;
 }
 }
