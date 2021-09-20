@@ -12,8 +12,27 @@ nav {
     .nav-list {
         display: flex;
         align-items: center;
+        
         a {
+            position: relative;
             margin:  0 3rem;
+
+            &:hover {
+                color: #45588080;
+                &::after {
+                    color: #45588080;
+                    width: 100%;
+                }
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                background-color:$color-primary;
+                height: 0.1rem;
+                width: 0;
+                left: 0;
+                bottom: -0.8rem;
+                transition: 0.3s ease-in;
         }
     }
     #logo {
@@ -29,4 +48,5 @@ nav {
        font: 400 1.4rem 'Lexend Deca';
        color: $white;
     }
+}
 }

@@ -102,13 +102,31 @@ nav .nav-list {
   align-items: center;
 }
 nav .nav-list a {
+  position: relative;
   margin: 0 3rem;
 }
-nav #logo {
+nav .nav-list a:hover {
+  color: #45588080;
+}
+nav .nav-list a:hover::after {
+  color: #45588080;
+  width: 100%;
+}
+nav .nav-list a::after {
+  content: "";
+  position: absolute;
+  background-color: #8557E6;
+  height: 0.1rem;
+  width: 0;
+  left: 0;
+  bottom: -0.8rem;
+  transition: 0.3s ease-in;
+}
+nav .nav-list #logo {
   font: 400 2.4rem "Lexend Deca";
   color: #8557E6;
 }
-nav button {
+nav .nav-list button {
   background-color: transparent;
   border: 0.1rem solid #8557E6;
   border-radius: 10rem;
