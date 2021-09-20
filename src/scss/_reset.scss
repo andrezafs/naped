@@ -3,12 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 6.5%;
+    font-size: 62.5%;
 }
 
 body {
     background-color: $black;
 }
+#logo {
+    font: 400 2.4rem 'Lexend Deca';
+    color: $color-primary;
+} 
 a {
     text-decoration: none;
     outline: 0;
@@ -25,13 +29,13 @@ h1 {
    color: $white;
 }
 h2 {
-    font: 500 2em 3.2rem 'Inter'; 
+    font: 500 2rem 'Inter'; 
     color: $grey-ligth;
 }
 h3 {
-    font: 400 2.4rem 3.4rem 'Lexend Deca';
+    font: 400 2.4rem 'Lexend Deca';
     color: $white;
 }
 h4 {
-    font:  400 1.3rem 2rem 'Lexend Deca';
+    font:  400 1.3rem  'Lexend Deca';
 }

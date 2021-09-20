@@ -1,3 +1,90 @@
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
 
+body {
+  background-color: #13131F;
+}
+
+#logo {
+  font: 400 2.4rem "Lexend Deca";
+  color: #8557E6;
+}
+
+a {
+  text-decoration: none;
+  outline: 0;
+  font: 500 1.6rem "Inter";
+  color: #FEFBEB;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font: 400 4.8rem 6rem "Lexend Deca";
+  color: #FEFBEB;
+}
+
+h2 {
+  font: 500 2rem "Inter";
+  color: #C4C4C4;
+}
+
+h3 {
+  font: 400 2.4rem "Lexend Deca";
+  color: #FEFBEB;
+}
+
+h4 {
+  font: 400 1.3rem "Lexend Deca";
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 /*# sourceMappingURL=styles.css.map */
