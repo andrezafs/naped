@@ -68,6 +68,7 @@ h4 {
 button {
   cursor: pointer;
   border: none;
+  background: transparent;
 }
 
 @font-face {
@@ -130,7 +131,6 @@ nav button {
   background-color: transparent;
   border: 0.1rem solid #8557E6;
   border-radius: 10rem;
-  padding: 0.5rem 2rem;
   font: 400 1.4rem "Lexend Deca";
   color: #FEFBEB;
 }
@@ -150,6 +150,13 @@ nav button {
 .container-news .rigth-news {
   width: 68%;
 }
+.container-news .rigth-news .btn-new1 {
+  background-color: #8557E6;
+  color: #FEFBEB;
+  border-radius: 0.3rem;
+  padding: 0.45rem 2.02rem;
+  font-size: 1.4rem;
+}
 .container-news .rigth-news #nw1 {
   background-size: cover;
   background-position: center;
@@ -164,6 +171,13 @@ nav button {
 .container-news .left-news .box-left {
   height: 16.5rem;
   padding: 1rem;
+}
+.container-news .left-news .box-left .btn-new2 {
+  background-color: #8557E6;
+  color: #FEFBEB;
+  border-radius: 0.3rem;
+  padding: 0.35rem 1.8rem;
+  font-size: 1.2rem;
 }
 .container-news .left-news #nw2 {
   background-size: cover;

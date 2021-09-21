@@ -34,6 +34,30 @@ $white: #FEFBEB;
 
 // HOVER 
 
+@mixin buttons($id){
+  
+    background-color: $color-primary;
+    color: $white;
+    border-radius: .3rem;
+
+    @if $id == nw1 {
+        padding: 0.45rem 2.02rem;
+        font-size: 1.4rem;
+    }
+    @else if $id == nw2 {
+        padding: 0.35rem 1.8rem;
+        font-size: 1.2rem;
+    }
+    @else if $id == nw3 {
+        padding: .2rem 1rem;
+    }
+    @else if $id == nw4 {
+        padding: 1rem 1rem;
+    }
+    @else {
+        padding: 0.5rem 2rem;
+    }
+}
 @mixin background($name) {
     background: {
         size: cover;

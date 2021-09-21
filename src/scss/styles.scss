@@ -43,7 +43,6 @@ nav {
     background-color: transparent;
     border: 0.1rem solid $color-primary;
     border-radius: 10rem;
-    padding: 0.5rem 2rem;
     font: 400 1.4rem "Lexend Deca";
     color: $white;
   }
@@ -62,7 +61,9 @@ nav {
 
   .rigth-news {
     width: 68%;
-
+.btn-new1 {
+    @include buttons(nw1);
+}
     #nw1 {
       @include background(img);
       height: 100%;
@@ -73,11 +74,16 @@ nav {
     .box-left {
       height: 16.5rem;
       padding: 1rem;
+
+      .btn-new2 {
+        @include buttons(nw2);
+      }
     }
     width: 30%;
 
     #nw2 {
       @include background(nw2);
+   
     }
     #nw3 {
       @include background(img);
