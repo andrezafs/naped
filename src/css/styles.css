@@ -217,8 +217,9 @@ nav button {
 }
 
 .news-scroll {
+  height: 89.4rem;
   overflow-y: scroll;
-  height: 100%;
+  overflow-y: scroll;
 }
 .news-scroll::-webkit-scrollbar {
   width: 0.8rem;
@@ -233,6 +234,7 @@ nav button {
   background-color: turquoise;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 3.5rem;
 }
 .news-scroll .box-scroll .new4 {
   width: 20rem;

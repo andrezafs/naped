@@ -116,9 +116,14 @@ nav {
 
 
 .news-scroll {
+  height: 89.4rem;
+    overflow-y: scroll;
 
+    //aqui voce personaliza a barra
+    
+  
   overflow-y: scroll;
-  height: 100%;
+
   &::-webkit-scrollbar {
     width: .8rem;
     border: .1rem solid #282830;
@@ -134,7 +139,7 @@ nav {
     background-color: turquoise;
     display: flex;
     justify-content: space-between;
-   
+   margin-bottom: 3.5rem;
  
     .new4 {
       
