@@ -71,6 +71,11 @@ button {
   background: transparent;
 }
 
+p {
+  color: #FEFBEB;
+  font-family: "Lexend Deca";
+}
+
 @font-face {
   font-family: "Inter";
   src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
@@ -165,8 +170,14 @@ nav button {
   height: 100%;
   padding: 1.7rem 3rem;
 }
+.container-news .rigth-news #nw1 p {
+  font-size: 2.4rem;
+}
 .container-news .left-news {
   width: 30%;
+}
+.container-news .left-news p {
+  font-size: 1.3rem;
 }
 .container-news .left-news .box-left {
   height: 16.5rem;
