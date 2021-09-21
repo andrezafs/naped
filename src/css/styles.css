@@ -135,4 +135,45 @@ nav button {
   color: #FEFBEB;
 }
 
+#main-container {
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-news {
+  background-color: violet;
+  height: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container-news .rigth-news {
+  width: 68%;
+  background-color: yellow;
+}
+.container-news .rigth-news #nw1 {
+  height: 100%;
+  padding: 1.7rem 3rem;
+}
+.container-news .left-news {
+  width: 30%;
+  background-color: white;
+}
+.container-news .left-news .box-left {
+  height: 16.5rem;
+  padding: 1rem;
+}
+.container-news .left-news #nw2 {
+  background-color: tomato;
+}
+.container-news .left-news #nw3 {
+  margin-top: 2rem;
+  background-color: wheat;
+}
+.container-news .new-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 /*# sourceMappingURL=styles.css.map */

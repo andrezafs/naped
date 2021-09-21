@@ -52,3 +52,54 @@ button {
    color: $white;
 }
 }
+
+#main-container {
+    background-color: turquoise;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.container-news {
+    background-color: violet;
+    height: 35rem;
+    display: flex;
+    justify-content: space-between;
+
+    
+    .rigth-news {
+        
+        width: 68%;
+        background-color: yellow;
+        #nw1 {
+            height: 100%;
+            padding: 1.7rem 3rem;
+        }
+     
+    
+    }
+    .left-news {
+        .box-left {
+            height: 16.5rem;
+            padding: 1rem;
+        }
+        width: 30%;
+        background-color: white;
+        #nw2 {
+            background-color: tomato;
+
+        }
+        #nw3 {
+           margin-top: 2rem;
+            background-color: wheat;
+        }
+    }
+
+    .new-box {
+        display: flex;
+        flex-direction: column;
+    justify-content: space-between;
+      
+       
+    }
+}
