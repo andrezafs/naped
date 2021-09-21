@@ -181,7 +181,7 @@ nav button {
   font-size: 2.4rem;
 }
 .container-news .left-news {
-  width: 30%;
+  width: 28.2%;
 }
 .container-news .left-news p {
   font-size: 1.3rem;
@@ -242,6 +242,11 @@ nav button {
 .news-scroll .box-scroll .new4 .box-scroll-infos {
   width: 26%;
   background-color: yellowgreen;
+}
+
+.box-left-scroll {
+  height: 25rem;
+  padding: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -95,7 +95,7 @@ nav {
         @include buttons(nw2);
       }
     }
-    width: 30%;
+    width: 28.2%;
 
     #nw2 {
       @include background(nw2);
@@ -149,4 +149,8 @@ nav {
       }
     }
   }
+}
+.box-left-scroll {
+  height: 25rem;
+  padding: 1rem;
 }
