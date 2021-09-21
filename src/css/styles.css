@@ -149,26 +149,34 @@ nav button {
 }
 .container-news .rigth-news {
   width: 68%;
-  background-color: yellow;
 }
 .container-news .rigth-news #nw1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/img.svg");
   height: 100%;
   padding: 1.7rem 3rem;
 }
 .container-news .left-news {
   width: 30%;
-  background-color: white;
 }
 .container-news .left-news .box-left {
   height: 16.5rem;
   padding: 1rem;
 }
 .container-news .left-news #nw2 {
-  background-color: tomato;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/nw2.svg");
 }
 .container-news .left-news #nw3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/img.svg");
   margin-top: 2rem;
-  background-color: wheat;
 }
 .container-news .new-box {
   display: flex;
