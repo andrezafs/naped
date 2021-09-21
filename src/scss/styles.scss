@@ -2,6 +2,7 @@
 @import "variables";
 @import "mixins";
 
+
 nav {
   height: 5.2rem;
   display: flex;
@@ -106,5 +107,41 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+}
+
+.news-scroll {
+
+  overflow-y: scroll;
+  height: 100%;
+  &::-webkit-scrollbar {
+    width: .8rem;
+    border: .1rem solid #282830;
+    ;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-primary;
+    
+  }
+  .box-scroll {
+    width: 80%;
+    height: 15.1rem;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+   
+ 
+    .new4 {
+      
+     
+      width: 20rem;
+      background-image: url(../img/nw2.svg);
+      background-repeat: no-repeat;
+
+      .box-scroll-infos {
+        width: 26%;
+        background-color: yellowgreen;
+      }
+    }
   }
 }

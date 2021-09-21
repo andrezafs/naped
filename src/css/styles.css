@@ -213,4 +213,32 @@ nav button {
   justify-content: space-between;
 }
 
+.news-scroll {
+  overflow-y: scroll;
+  height: 100%;
+}
+.news-scroll::-webkit-scrollbar {
+  width: 0.8rem;
+  border: 0.1rem solid #282830;
+}
+.news-scroll::-webkit-scrollbar-thumb {
+  background-color: #8557E6;
+}
+.news-scroll .box-scroll {
+  width: 80%;
+  height: 15.1rem;
+  background-color: turquoise;
+  display: flex;
+  justify-content: space-between;
+}
+.news-scroll .box-scroll .new4 {
+  width: 20rem;
+  background-image: url(../img/nw2.svg);
+  background-repeat: no-repeat;
+}
+.news-scroll .box-scroll .new4 .box-scroll-infos {
+  width: 26%;
+  background-color: yellowgreen;
+}
+
 /*# sourceMappingURL=styles.css.map */
