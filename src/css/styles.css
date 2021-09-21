@@ -151,8 +151,11 @@ nav button {
   margin-top: 1.1rem;
 }
 
-.container-news {
+#cont1 {
   height: 35rem;
+}
+
+.container-news {
   display: flex;
   justify-content: space-between;
 }
