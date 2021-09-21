@@ -49,12 +49,17 @@ nav {
 }
 
 #main-container {
-  background-color: turquoise;
   display: flex;
   flex-direction: column;
+
+  .text {
+    padding: 11.5rem 0;
+    h2 {
+      margin-top: 1.1rem;
+    }
+  }
 }
 .container-news {
-  background-color: violet;
   height: 35rem;
   display: flex;
   justify-content: space-between;
