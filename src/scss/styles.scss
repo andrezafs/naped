@@ -65,7 +65,7 @@ nav {
 }
 
 .container-news {
- 
+ margin-bottom: 5rem;
   display: flex;
   justify-content: space-between;
 
@@ -116,6 +116,7 @@ nav {
 
 
 .news-scroll {
+  
   height: 89.4rem;
     overflow-y: scroll;
 
