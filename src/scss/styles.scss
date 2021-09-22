@@ -196,7 +196,7 @@ nav {
 .recent-news {
   display: flex;
   flex-direction: column;
-  background-color: crimson;
+
   &-box{
     display: flex;
     justify-content: space-between;
@@ -204,11 +204,14 @@ nav {
   }
   &-box-info {
     width: 28%;
-    background-color: cyan;
+    
     margin-bottom: 4.1rem;
 
     p {
       font: 400 1.3rem 'Lexend Deca';
+    }
+    #nw2 {
+      @include background(nw2);
     }
   }
 }
