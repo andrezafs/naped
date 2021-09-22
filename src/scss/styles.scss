@@ -30,7 +30,7 @@
     @include buttons(nw1);
 }
     #nw1 {
-      @include background(img);
+  
       height: 100%;
       padding: 1.7rem 3rem;
       p {
@@ -55,13 +55,8 @@
     }
     width: 28.2%;
 
-    #nw2 {
-      @include background(nw2);
    
-    }
-    #nw3 {
-      @include background(img);
-    }
+    
   }
 
   .new-box {
@@ -165,9 +160,7 @@
     p {
       font: 400 1.3rem 'Lexend Deca';
     }
-    #nw2 {
-      @include background(nw2);
-    }
+    
   }
 }
 
@@ -181,4 +174,46 @@
     color: $grey-ligth;
     padding: 1.6rem 0;
   }
+}
+
+#nw1 {
+  @include background(luta);
+}
+#nw2 {
+  @include background(fogo);
+}
+#nw3 {
+  @include background(lol);
+}
+#nw4{
+  @include background(naruto);
+}
+#nw5 {
+  @include background(detpool);
+}
+#nw6 {
+  @include background(minecraft);
+}#nw7{
+  @include background(harrypotter);
+}#nw8{
+  @include background(sobrenatural);
+}#nw9{
+  @include background(chihiro);
+}#nw10 {
+  @include background(filme);
+}#nw11 {
+  @include background(good);
+}#nw12 {
+  @include background(vento);
+}#nw13 {
+  @include background(gta5);
+}#nw14 {
+  @include background(vikings);
+}#nw15 {
+  @include background(disney);
+}#nw16{
+  @include background(youname);
+}
+#nw17{
+  @include background(lol2);
 }
