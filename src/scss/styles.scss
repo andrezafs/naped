@@ -119,7 +119,7 @@ nav {
   
   height: 89.4rem;
     overflow-y: scroll;
- background-color: cadetblue;
+
 
 
   &::-webkit-scrollbar {
@@ -134,25 +134,24 @@ nav {
 
   .box-scroll {
     width: 87%;
-    background-color: chocolate;
+    margin-bottom: 3.5rem;
 
     &-infos {
       display: flex;
       justify-content: space-between;
-      background-color: cornflowerblue;
+
       height: 15.1rem;
 
       &-img {
         width: 45%;
-        background-color: crimson;
-        // background-image: url(../img/nw2.svg);
+        @include background(nw2);
       }
       &-texts {
         padding: 1rem 1.8rem;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: rgb(220, 20, 177);
+       
       }
     }
   }

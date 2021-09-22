@@ -220,7 +220,6 @@ nav button {
 .news-scroll {
   height: 89.4rem;
   overflow-y: scroll;
-  background-color: cadetblue;
 }
 .news-scroll::-webkit-scrollbar {
   width: 0.8rem;
@@ -231,24 +230,25 @@ nav button {
 }
 .news-scroll .box-scroll {
   width: 87%;
-  background-color: chocolate;
+  margin-bottom: 3.5rem;
 }
 .news-scroll .box-scroll-infos {
   display: flex;
   justify-content: space-between;
-  background-color: cornflowerblue;
   height: 15.1rem;
 }
 .news-scroll .box-scroll-infos-img {
   width: 45%;
-  background-color: crimson;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/nw2.svg");
 }
 .news-scroll .box-scroll-infos-texts {
   padding: 1rem 1.8rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #dc14b1;
 }
 .news-scroll h4 {
   font: 400 1.3rem "Lexend Deca";
