@@ -119,11 +119,8 @@ nav {
   
   height: 89.4rem;
     overflow-y: scroll;
+ background-color: cadetblue;
 
-    //aqui voce personaliza a barra
-    
-  
-  overflow-y: scroll;
 
   &::-webkit-scrollbar {
     width: .8rem;
@@ -134,28 +131,52 @@ nav {
     background-color: $color-primary;
     
   }
-  .box-scroll {
-    width: 80%;
-    height: 15.1rem;
-    background-color: turquoise;
-    display: flex;
-    justify-content: space-between;
-   margin-bottom: 3.5rem;
- 
-    .new4 {
-      
-     
-      width: 20rem;
-      background-image: url(../img/nw2.svg);
-      background-repeat: no-repeat;
 
-      .box-scroll-infos {
-        width: 26%;
-        background-color: yellowgreen;
+  .box-scroll {
+    width: 87%;
+    background-color: chocolate;
+
+    &-infos {
+      display: flex;
+      justify-content: space-between;
+      background-color: cornflowerblue;
+      height: 15.1rem;
+
+      &-img {
+        width: 45%;
+        background-color: crimson;
+        // background-image: url(../img/nw2.svg);
+      }
+      &-texts {
+        padding: 1rem 1.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: rgb(220, 20, 177);
       }
     }
   }
-}
+  
+
+
+      h4 {
+        font: 400 1.3rem 'Lexend Deca';
+        color: $white;
+        line-height: 2rem;
+      }
+      p {
+        font: 400 1.1rem 'Inter';
+        color: $grey-ligth;
+      }
+      span {
+        font: 600 1rem 'Inter';
+        color: $grey-ligth;
+      }
+      button {
+        @include buttons(nw2)
+      }
+    }
+  
 .box-left-scroll {
   height: 25rem;
   padding: 1rem;

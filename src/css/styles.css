@@ -220,7 +220,7 @@ nav button {
 .news-scroll {
   height: 89.4rem;
   overflow-y: scroll;
-  overflow-y: scroll;
+  background-color: cadetblue;
 }
 .news-scroll::-webkit-scrollbar {
   width: 0.8rem;
@@ -230,21 +230,45 @@ nav button {
   background-color: #8557E6;
 }
 .news-scroll .box-scroll {
-  width: 80%;
-  height: 15.1rem;
-  background-color: turquoise;
+  width: 87%;
+  background-color: chocolate;
+}
+.news-scroll .box-scroll-infos {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3.5rem;
+  background-color: cornflowerblue;
+  height: 15.1rem;
 }
-.news-scroll .box-scroll .new4 {
-  width: 20rem;
-  background-image: url(../img/nw2.svg);
-  background-repeat: no-repeat;
+.news-scroll .box-scroll-infos-img {
+  width: 45%;
+  background-color: crimson;
 }
-.news-scroll .box-scroll .new4 .box-scroll-infos {
-  width: 26%;
-  background-color: yellowgreen;
+.news-scroll .box-scroll-infos-texts {
+  padding: 1rem 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #dc14b1;
+}
+.news-scroll h4 {
+  font: 400 1.3rem "Lexend Deca";
+  color: #FEFBEB;
+  line-height: 2rem;
+}
+.news-scroll p {
+  font: 400 1.1rem "Inter";
+  color: #C4C4C4;
+}
+.news-scroll span {
+  font: 600 1rem "Inter";
+  color: #C4C4C4;
+}
+.news-scroll button {
+  background-color: #8557E6;
+  color: #FEFBEB;
+  border-radius: 0.3rem;
+  padding: 0.35rem 1.8rem;
+  font-size: 1.2rem;
 }
 
 .box-left-scroll {
