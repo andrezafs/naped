@@ -305,6 +305,10 @@ nav button {
   display: flex;
   flex-direction: column;
 }
+.recent-news h1 {
+  width: 30rem;
+  margin-bottom: 2.5rem;
+}
 .recent-news-box {
   display: flex;
   justify-content: space-between;
