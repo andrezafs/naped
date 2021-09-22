@@ -193,3 +193,24 @@ nav {
   border-bottom: .3rem solid $color-primary;
  padding-bottom: 1.3rem;
 }
+.recent-news {
+  display: flex;
+  flex-direction: column;
+  background-color: crimson;
+  &-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &-box-info {
+    width: 28%;
+    background-color: cyan;
+    margin-bottom: 4.1rem;
+
+    p {
+      font: 400 1.3rem 'Lexend Deca';
+    }
+  }
+}
+
+

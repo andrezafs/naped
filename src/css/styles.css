@@ -291,4 +291,23 @@ nav button {
   padding-bottom: 1.3rem;
 }
 
+.recent-news {
+  display: flex;
+  flex-direction: column;
+  background-color: crimson;
+}
+.recent-news-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.recent-news-box-info {
+  width: 28%;
+  background-color: cyan;
+  margin-bottom: 4.1rem;
+}
+.recent-news-box-info p {
+  font: 400 1.3rem "Lexend Deca";
+}
+
 /*# sourceMappingURL=styles.css.map */
