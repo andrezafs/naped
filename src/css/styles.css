@@ -171,6 +171,7 @@ nav button {
   flex-direction: column;
 }
 #main-container .text {
+  width: 41%;
   padding: 11.5rem 0;
 }
 #main-container .text h2 {
