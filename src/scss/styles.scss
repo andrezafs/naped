@@ -84,6 +84,9 @@ nav {
     }
   }
   .left-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     p {
         font-size: 1.3rem;
     }
@@ -103,7 +106,6 @@ nav {
     }
     #nw3 {
       @include background(img);
-      margin-top: 2rem;
     }
   }
 

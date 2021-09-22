@@ -182,6 +182,9 @@ nav button {
   font-size: 2.4rem;
 }
 .container-news .left-news {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 28.2%;
 }
 .container-news .left-news p {
@@ -209,7 +212,6 @@ nav button {
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/img.svg");
-  margin-top: 2rem;
 }
 .container-news .new-box {
   display: flex;
