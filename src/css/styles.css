@@ -97,6 +97,11 @@ p {
   font-style: normal;
   font-display: swap;
 }
+#logo {
+  font: 400 2.4rem "Lexend Deca";
+  color: #8557E6;
+}
+
 nav {
   height: 5.2rem;
   display: flex;
@@ -127,10 +132,6 @@ nav .nav-list a::after {
   left: 0;
   bottom: -0.8rem;
   transition: 0.3s ease-in;
-}
-nav #logo {
-  font: 400 2.4rem "Lexend Deca";
-  color: #8557E6;
 }
 nav button {
   background-color: transparent;
@@ -312,6 +313,17 @@ nav button {
   background-position: center;
   background-repeat: no-repeat;
   background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/nw2.svg");
+}
+
+#main-footer {
+  width: 34%;
+  text-align: center;
+  padding: 2.4rem 0;
+}
+#main-footer p {
+  font: 500 1.6rem "Inter";
+  color: #C4C4C4;
+  padding: 1.6rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -2,7 +2,10 @@
 @import "variables";
 @import "mixins";
 
-
+#logo {
+  font: 400 2.4rem "Lexend Deca";
+  color: $color-primary;
+}
 nav {
   height: 5.2rem;
   display: flex;
@@ -36,10 +39,7 @@ nav {
       }
     }
   }
-  #logo {
-    font: 400 2.4rem "Lexend Deca";
-    color: $color-primary;
-  }
+ 
   button {
     background-color: transparent;
     border: 0.1rem solid $color-primary;
@@ -217,3 +217,13 @@ nav {
 }
 
 
+#main-footer {
+  width: 34%;
+  text-align: center;
+  padding: 2.4rem 0;
+  p {
+    font: 500 1.6rem 'Inter';
+    color: $grey-ligth;
+    padding: 1.6rem 0;
+  }
+}
