@@ -1,0 +1,46 @@
+@import "variables";
+#logo {
+    font: 400 2.4rem "Lexend Deca";
+    color: $color-primary;
+  }
+  nav {
+    height: 5.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .nav-list {
+      display: flex;
+      align-items: center;
+  
+      a {
+        position: relative;
+        margin: 0 3rem;
+  
+        &:hover {
+          color: #45588080;
+          &::after {
+            color: #45588080;
+            width: 100%;
+          }
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: $color-primary;
+          height: 0.1rem;
+          width: 0;
+          left: 0;
+          bottom: -0.8rem;
+          transition: 0.3s ease-in;
+        }
+      }
+    }
+   
+    button {
+      border: 0.1rem solid $color-primary;
+      font: 400 1.4rem "Lexend Deca";
+      color: $white;
+      @include buttons(btn-header);
+    }
+  }

@@ -55,7 +55,9 @@ $white: #FEFBEB;
         padding: 1rem 1rem;
     }
     @else {
+        background: transparent;
         padding: 0.5rem 2rem;
+        border-radius: 10rem
     }
 }
 @mixin background($name) {

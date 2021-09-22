@@ -97,6 +97,27 @@ p {
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lexend Deca";
+  src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 #logo {
   font: 400 2.4rem "Lexend Deca";
   color: #8557E6;
@@ -134,11 +155,15 @@ nav .nav-list a::after {
   transition: 0.3s ease-in;
 }
 nav button {
-  background-color: transparent;
   border: 0.1rem solid #8557E6;
-  border-radius: 10rem;
   font: 400 1.4rem "Lexend Deca";
   color: #FEFBEB;
+  background-color: #8557E6;
+  color: #FEFBEB;
+  border-radius: 0.3rem;
+  background: transparent;
+  padding: 0.5rem 2rem;
+  border-radius: 10rem;
 }
 
 #main-container {
