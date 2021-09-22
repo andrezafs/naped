@@ -285,4 +285,10 @@ nav button {
   font-size: 1.2rem;
 }
 
+#h1-scroll-left {
+  font: 400 2.4rem "Lexend Deca";
+  border-bottom: 0.3rem solid #8557E6;
+  padding-bottom: 1.3rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
