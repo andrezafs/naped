@@ -275,5 +275,12 @@ nav button {
   height: 25rem;
   padding: 1rem;
 }
+.box-left-scroll .btn-new2 {
+  background-color: #8557E6;
+  color: #FEFBEB;
+  border-radius: 0.3rem;
+  padding: 0.35rem 1.8rem;
+  font-size: 1.2rem;
+}
 
 /*# sourceMappingURL=styles.css.map */
