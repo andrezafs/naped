@@ -98,6 +98,7 @@ p {
   font-display: swap;
 }
 #nw1 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,6 +106,7 @@ p {
 }
 
 #nw2 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,6 +114,7 @@ p {
 }
 
 #nw3 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -119,6 +122,7 @@ p {
 }
 
 #nw4 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,6 +130,7 @@ p {
 }
 
 #nw5 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -133,6 +138,7 @@ p {
 }
 
 #nw6 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,6 +146,7 @@ p {
 }
 
 #nw7 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -147,6 +154,7 @@ p {
 }
 
 #nw8 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -154,6 +162,7 @@ p {
 }
 
 #nw9 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -161,6 +170,7 @@ p {
 }
 
 #nw10 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -168,6 +178,7 @@ p {
 }
 
 #nw11 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -175,6 +186,7 @@ p {
 }
 
 #nw12 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -182,6 +194,7 @@ p {
 }
 
 #nw13 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -189,6 +202,7 @@ p {
 }
 
 #nw14 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -196,6 +210,7 @@ p {
 }
 
 #nw15 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -203,6 +218,7 @@ p {
 }
 
 #nw16 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -210,6 +226,7 @@ p {
 }
 
 #nw17 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -371,6 +388,7 @@ nav button {
 }
 .news-scroll .box-scroll-infos-img {
   width: 45%;
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -473,6 +491,7 @@ nav button {
 }
 
 #nw1 {
+  cursor: pointer;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
