@@ -453,6 +453,47 @@ nav button {
   padding: 1.6rem 0;
 }
 
+.container-new-info-title {
+  width: 90%;
+}
+.container-new-info-title h1 {
+  font: 400 3.6rem "Lexend Deca";
+}
+.container-new-info-title h2 {
+  padding: 1.2rem 0;
+  font: 500 2.4rem "Inter";
+}
+
+.btn-new1 {
+  background-color: #8557E6;
+  color: #FEFBEB;
+  border-radius: 0.3rem;
+  padding: 0.45rem 2.02rem;
+  font-size: 1.4rem;
+}
+
+#nw1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/luta.svg");
+}
+
+.container-new-info-box-bg {
+  max-width: 100%;
+  height: 62.7rem;
+  padding: 2rem;
+}
+
+.container-new {
+  padding: 9.5rem 0;
+}
+
+.container-new-info-box-p p {
+  font: 400 2.4rem "Inter";
+  padding: 2.15rem 0;
+}
+
 .main-container-error {
   display: flex;
   flex-direction: column;

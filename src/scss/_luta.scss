@@ -1,0 +1,33 @@
+.container-new-info-title {
+    width: 90%;
+    h1 {
+        font: 400 3.6rem 'Lexend Deca'
+    }
+    h2 {
+        padding: 1.2rem 0;
+        font: 500 2.4rem 'Inter'
+    }
+}
+.btn-new1 {
+    @include buttons(nw1);
+}
+#nw1 {
+    
+    @include background(luta);
+  }
+  .container-new-info-box-bg {
+max-width: 100%;
+    height: 62.7rem;
+    padding: 2rem ;
+  }
+  .container-new {
+      padding: 9.5rem 0;
+  }
+  .container-new-info-box-p {
+    p {
+        font: 400 2.4rem 'Inter';
+        padding: 2.15rem 0;
+    }
+  }
+
+
