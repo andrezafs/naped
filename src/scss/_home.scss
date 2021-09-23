@@ -1,0 +1,168 @@
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+  
+    .text {
+      width: 41%;
+      padding: 11.5rem 0;
+      h2 {
+        margin-top: 1.1rem;
+      }
+    }
+  }
+  #cont1 {
+    height: 35rem;
+  }
+  
+  .container-news {
+   margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+  
+    .rigth-news {
+      width: 68%;
+  .btn-new1 {
+      @include buttons(nw1);
+  }
+      #nw1 {
+    
+        height: 100%;
+        padding: 1.7rem 3rem;
+        p {
+            font-size: 2.4rem;
+        }
+      }
+    }
+    .left-news {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      p {
+          font-size: 1.3rem;
+      }
+      .box-left {
+        height: 16.5rem;
+        padding: 1rem;
+  
+        .btn-new2 {
+          @include buttons(nw2);
+        }
+      }
+      width: 28.2%;
+  
+     
+      
+    }
+  
+    .new-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+  
+  
+  .news-scroll {
+    
+    height: 89.4rem;
+      overflow-y: scroll;
+  
+  
+  
+    &::-webkit-scrollbar {
+      width: .8rem;
+      border: .1rem solid #282830;
+      ;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: $color-primary;
+      
+    }
+  
+    .box-scroll {
+      width: 87%;
+      margin-bottom: 3.5rem;
+  
+      &-infos {
+        display: flex;
+        justify-content: space-between;
+  
+        height: 15.1rem;
+  
+        &-img {
+          width: 45%;
+          @include background(nw2);
+        }
+        &-texts {
+          padding: 1rem 1.8rem;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+         
+        }
+      }
+    }
+    
+  
+  
+        h4 {
+          font: 400 1.3rem 'Lexend Deca';
+          color: $white;
+          line-height: 2rem;
+        }
+        p {
+          font: 400 1.1rem 'Inter';
+          color: $grey-ligth;
+        }
+        span {
+          font: 600 1rem 'Inter';
+          color: $grey-ligth;
+        }
+        button {
+          @include buttons(nw2)
+        }
+      }
+    
+  .box-left-scroll {
+   
+      height: 25rem;
+      padding: 1rem;
+  
+      .btn-new2 {
+        @include buttons(nw2);
+      }
+    }
+  
+  #h1-scroll-left {
+    font: 400 2.4rem 'Lexend Deca';
+    border-bottom: .3rem solid $color-primary;
+   padding-bottom: 1.3rem;
+  }
+  .recent-news {
+    display: flex;
+    flex-direction: column;
+  
+    h1 {
+     width: 30rem;
+     margin-bottom: 2.5rem;
+    }
+    &-box{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    &-box-info {
+      width: 28%;
+      
+      margin-bottom: 4.1rem;
+  
+      p {
+        font: 400 1.3rem 'Lexend Deca';
+      }
+      
+    }
+  }
+  
+  
+  

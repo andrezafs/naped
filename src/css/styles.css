@@ -97,6 +97,125 @@ p {
   font-style: normal;
   font-display: swap;
 }
+#nw1 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/luta.svg");
+}
+
+#nw2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/fogo.svg");
+}
+
+#nw3 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/lol.svg");
+}
+
+#nw4 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/naruto.svg");
+}
+
+#nw5 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/detpool.svg");
+}
+
+#nw6 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/minecraft.svg");
+}
+
+#nw7 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/harrypotter.svg");
+}
+
+#nw8 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/sobrenatural.svg");
+}
+
+#nw9 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/chihiro.svg");
+}
+
+#nw10 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/filme.svg");
+}
+
+#nw11 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/good.svg");
+}
+
+#nw12 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/vento.svg");
+}
+
+#nw13 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/gta5.svg");
+}
+
+#nw14 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/vikings.svg");
+}
+
+#nw15 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/disney.svg");
+}
+
+#nw16 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/youname.svg");
+}
+
+#nw17 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/lol2.svg");
+}
+
 @font-face {
   font-family: "Inter";
   src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
@@ -334,123 +453,84 @@ nav button {
   padding: 1.6rem 0;
 }
 
-#nw1 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/luta.svg");
+.main-container-error {
+  display: flex;
+  flex-direction: column;
+}
+.main-container-error span {
+  position: relative;
+  margin: 0 3rem;
+  font-size: 2rem;
+  /* fundo gradiente */
+  background-image: linear-gradient(180deg, #C4C4C4 0%, rgba(196, 196, 196, 0) 85.42%);
+  /* agora colocamos o fundo gradiente dentro do texto com essa propriedade */
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* a cor do texto deve estar como transparent */
+  color: transparent;
+}
+.main-container-error ul {
+  list-style: none;
+}
+.main-container-error h1 {
+  font: 400 4.8rem "Lexend Deca";
+  color: #FEFBEB;
+}
+.main-container-error h2 {
+  font: 500 2rem "Inter";
+  color: #C4C4C4;
+}
+.main-container-error h3 {
+  font: 400 2.4rem "Lexend Deca";
+  color: #FEFBEB;
+}
+.main-container-error h4 {
+  font: 400 1.3rem "Lexend Deca";
+}
+.main-container-error button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.main-container-error p {
+  color: #C4C4C4;
+  font-family: "Lexend Deca";
+  font-size: 2rem;
 }
 
-#nw2 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/fogo.svg");
+.box-error {
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  justify-content: space-between;
 }
-
-#nw3 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/lol.svg");
+.box-error-text {
+  width: 35%;
 }
-
-#nw4 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/naruto.svg");
+.box-error-text h1 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  color: #FEFBEB;
 }
-
-#nw5 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/detpool.svg");
+.box-error-text p {
+  margin-top: 1.7rem;
+  line-height: 3.4rem;
 }
-
-#nw6 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/minecraft.svg");
+.box-error-img {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
-
-#nw7 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/harrypotter.svg");
+.box-error-img p {
+  text-align: center;
+  margin-top: 5rem;
 }
-
-#nw8 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/sobrenatural.svg");
-}
-
-#nw9 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/chihiro.svg");
-}
-
-#nw10 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/filme.svg");
-}
-
-#nw11 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/good.svg");
-}
-
-#nw12 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/vento.svg");
-}
-
-#nw13 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/gta5.svg");
-}
-
-#nw14 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/vikings.svg");
-}
-
-#nw15 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/disney.svg");
-}
-
-#nw16 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/youname.svg");
-}
-
-#nw17 {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/lol2.svg");
+.box-error button {
+  padding: 1.16rem 2.5rem;
+  background-color: #8557E6;
+  color: #FEFBEB;
+  margin-top: 4.1rem;
+  font-size: 1.8rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
