@@ -1,20 +1,20 @@
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+  src: url(/fonts/inter/Inter-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+  src: url(/fonts/inter/Inter-Medium.ttf) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Lexend Deca";
-  src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+  src: url(/fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 }
 
 body {
-  background-color: #13131F;
+  background-color: #13131f;
 }
 
 .maxWidth {
@@ -39,7 +39,7 @@ a {
   text-decoration: none;
   outline: 0;
   font: 500 1.6rem "Inter";
-  color: #FEFBEB;
+  color: #fefbeb;
 }
 
 ul {
@@ -48,17 +48,17 @@ ul {
 
 h1 {
   font: 400 4.8rem "Lexend Deca";
-  color: #FEFBEB;
+  color: #fefbeb;
 }
 
 h2 {
   font: 500 2rem "Inter";
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 
 h3 {
   font: 400 2.4rem "Lexend Deca";
-  color: #FEFBEB;
+  color: #fefbeb;
 }
 
 h4 {
@@ -72,27 +72,27 @@ button {
 }
 
 p {
-  color: #FEFBEB;
+  color: #fefbeb;
   font-family: "Lexend Deca";
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+  src: url(/fonts/inter/Inter-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+  src: url(/fonts/inter/Inter-Medium.ttf) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Lexend Deca";
-  src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+  src: url(/fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -102,7 +102,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/luta.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/luta.svg");
 }
 
 #nw2 {
@@ -110,7 +110,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/fogo.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/fogo.svg");
 }
 
 #nw3 {
@@ -118,7 +118,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/lol.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/lol.svg");
 }
 
 #nw4 {
@@ -126,7 +126,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/naruto.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/naruto.svg");
 }
 
 #nw5 {
@@ -134,7 +134,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/detpool.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/detpool.svg");
 }
 
 #nw6 {
@@ -142,7 +142,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/minecraft.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/minecraft.svg");
 }
 
 #nw7 {
@@ -150,7 +150,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/harrypotter.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/harrypotter.svg");
 }
 
 #nw8 {
@@ -158,7 +158,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/sobrenatural.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/sobrenatural.svg");
 }
 
 #nw9 {
@@ -166,7 +166,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/chihiro.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/chihiro.svg");
 }
 
 #nw10 {
@@ -174,7 +174,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/filme.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/filme.svg");
 }
 
 #nw11 {
@@ -182,7 +182,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/good.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/good.svg");
 }
 
 #nw12 {
@@ -190,7 +190,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/vento.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/vento.svg");
 }
 
 #nw13 {
@@ -198,7 +198,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/gta5.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/gta5.svg");
 }
 
 #nw14 {
@@ -206,7 +206,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/vikings.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/vikings.svg");
 }
 
 #nw15 {
@@ -214,7 +214,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/disney.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/disney.svg");
 }
 
 #nw16 {
@@ -222,7 +222,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/youname.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/youname.svg");
 }
 
 #nw17 {
@@ -230,33 +230,57 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/lol2.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/lol2.svg");
+}
+
+#nw18 {
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/narutotobi.svg");
+}
+
+#nw19 {
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/dragonboll.svg");
+}
+
+#nw20 {
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/manpurple.svg");
 }
 
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/inter/Inter-Regular.ttf) format("woff2");
+  src: url(/fonts/inter/Inter-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Inter";
-  src: url(../fonts/inter/Inter-Medium.ttf) format("woff2");
+  src: url(/fonts/inter/Inter-Medium.ttf) format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Lexend Deca";
-  src: url(../fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
+  src: url(/fonts/lexend-deca/LexendDeca-Regular.ttf) format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 #logo {
   font: 400 2.4rem "Lexend Deca";
-  color: #8557E6;
+  color: #8557e6;
 }
 
 nav {
@@ -283,7 +307,7 @@ nav .nav-list a:hover::after {
 nav .nav-list a::after {
   content: "";
   position: absolute;
-  background-color: #8557E6;
+  background-color: #8557e6;
   height: 0.1rem;
   width: 0;
   left: 0;
@@ -291,11 +315,11 @@ nav .nav-list a::after {
   transition: 0.3s ease-in;
 }
 nav button {
-  border: 0.1rem solid #8557E6;
+  border: 0.1rem solid #8557e6;
   font: 400 1.4rem "Lexend Deca";
-  color: #FEFBEB;
-  background-color: #8557E6;
-  color: #FEFBEB;
+  color: #fefbeb;
+  background-color: #8557e6;
+  color: #fefbeb;
   border-radius: 0.3rem;
   background: transparent;
   padding: 0.5rem 2rem;
@@ -327,8 +351,8 @@ nav button {
   width: 68%;
 }
 .container-news .rigth-news .btn-new1 {
-  background-color: #8557E6;
-  color: #FEFBEB;
+  background-color: #8557e6;
+  color: #fefbeb;
   border-radius: 0.3rem;
   padding: 0.45rem 2.02rem;
   font-size: 1.4rem;
@@ -354,8 +378,8 @@ nav button {
   padding: 1rem;
 }
 .container-news .left-news .box-left .btn-new2 {
-  background-color: #8557E6;
-  color: #FEFBEB;
+  background-color: #8557e6;
+  color: #fefbeb;
   border-radius: 0.3rem;
   padding: 0.35rem 1.8rem;
   font-size: 1.2rem;
@@ -375,7 +399,7 @@ nav button {
   border: 0.1rem solid #282830;
 }
 .news-scroll::-webkit-scrollbar-thumb {
-  background-color: #8557E6;
+  background-color: #8557e6;
 }
 .news-scroll .box-scroll {
   width: 87%;
@@ -392,7 +416,7 @@ nav button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/nw2.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/nw2.svg");
 }
 .news-scroll .box-scroll-infos-texts {
   padding: 1rem 1.8rem;
@@ -402,20 +426,20 @@ nav button {
 }
 .news-scroll h4 {
   font: 400 1.3rem "Lexend Deca";
-  color: #FEFBEB;
+  color: #fefbeb;
   line-height: 2rem;
 }
 .news-scroll p {
   font: 400 1.1rem "Inter";
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 .news-scroll span {
   font: 600 1rem "Inter";
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 .news-scroll button {
-  background-color: #8557E6;
-  color: #FEFBEB;
+  background-color: #8557e6;
+  color: #fefbeb;
   border-radius: 0.3rem;
   padding: 0.35rem 1.8rem;
   font-size: 1.2rem;
@@ -426,8 +450,8 @@ nav button {
   padding: 1rem;
 }
 .box-left-scroll .btn-new2 {
-  background-color: #8557E6;
-  color: #FEFBEB;
+  background-color: #8557e6;
+  color: #fefbeb;
   border-radius: 0.3rem;
   padding: 0.35rem 1.8rem;
   font-size: 1.2rem;
@@ -435,7 +459,7 @@ nav button {
 
 #h1-scroll-left {
   font: 400 2.4rem "Lexend Deca";
-  border-bottom: 0.3rem solid #8557E6;
+  border-bottom: 0.3rem solid #8557e6;
   padding-bottom: 1.3rem;
 }
 
@@ -467,7 +491,7 @@ nav button {
 }
 #main-footer p {
   font: 500 1.6rem "Inter";
-  color: #C4C4C4;
+  color: #c4c4c4;
   padding: 1.6rem 0;
 }
 
@@ -483,8 +507,8 @@ nav button {
 }
 
 .btn-new1 {
-  background-color: #8557E6;
-  color: #FEFBEB;
+  background-color: #8557e6;
+  color: #fefbeb;
   border-radius: 0.3rem;
   padding: 0.45rem 2.02rem;
   font-size: 1.4rem;
@@ -495,7 +519,7 @@ nav button {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-image: linear-gradient(360deg, #13131F 0%, rgba(19, 19, 31, 0) 100%), url("../img/luta.svg");
+  background-image: linear-gradient(360deg, #13131f 0%, rgba(19, 19, 31, 0) 100%), url("/images/luta.svg");
 }
 
 .container-new-info-box-bg {
@@ -534,15 +558,15 @@ nav button {
 }
 .main-container-error h1 {
   font: 400 4.8rem "Lexend Deca";
-  color: #FEFBEB;
+  color: #fefbeb;
 }
 .main-container-error h2 {
   font: 500 2rem "Inter";
-  color: #C4C4C4;
+  color: #c4c4c4;
 }
 .main-container-error h3 {
   font: 400 2.4rem "Lexend Deca";
-  color: #FEFBEB;
+  color: #fefbeb;
 }
 .main-container-error h4 {
   font: 400 1.3rem "Lexend Deca";
@@ -553,7 +577,7 @@ nav button {
   background: transparent;
 }
 .main-container-error p {
-  color: #C4C4C4;
+  color: #c4c4c4;
   font-family: "Lexend Deca";
   font-size: 2rem;
 }
@@ -570,7 +594,7 @@ nav button {
 .box-error-text h1 {
   font-size: 4.8rem;
   line-height: 6rem;
-  color: #FEFBEB;
+  color: #fefbeb;
 }
 .box-error-text p {
   margin-top: 1.7rem;
@@ -587,8 +611,8 @@ nav button {
 }
 .box-error button {
   padding: 1.16rem 2.5rem;
-  background-color: #8557E6;
-  color: #FEFBEB;
+  background-color: #8557e6;
+  color: #fefbeb;
   margin-top: 4.1rem;
   font-size: 1.8rem;
 }
