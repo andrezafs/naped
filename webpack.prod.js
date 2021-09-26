@@ -12,12 +12,6 @@ module.exports = merge(CommonWebpackConfiguration, {
     publicPath: "/",
     filename: "js/[name].[contenthash].bundle.js",
   },
-  plugins: [
-    new MiniCssExtractPlugin({
-      filename: "styles/[name].[contenthash].css",
-      chunkFilename: "styles/[id].[contenthash].css",
-    }),
-  ],
   optimization: {
     minimize: true,
     minimizer: [new CssMinimizerPlugin()],

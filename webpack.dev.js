@@ -19,12 +19,9 @@ module.exports = merge(CommonWebpackConfiguration, {
     client: {
       overlay: false,
     },
-    open: false,
+    open: true,
     compress: true,
     hot: true,
     port: 3000,
-    devMiddleware: {
-      writeToDisk: true,
-    },
   },
 });
