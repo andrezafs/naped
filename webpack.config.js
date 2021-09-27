@@ -5,10 +5,24 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const path = require("path");
+const fs = require("fs");
+
+const templatesPath = path.resolve(__dirname, "src", "pages");
+
+const templatesFiles = fs.readdirSync(templatesPath);
+
+const htmlPluginEntries = templatesFiles.map(
+  (template) =>
+    new HtmlWebpackPlugin({
+      inject: true,
+      hash: false,
+      filename: template,
+      template: path.resolve(templatesPath, template),
+    })
+);
 
 module.exports = {
   entry: path.resolve(__dirname, "src", "pages", "index.html"),
-  target: "web",
   devtool: "inline-source-map",
   output: {
     path: path.resolve(__dirname, "build"),
@@ -64,28 +78,10 @@ module.exports = {
         },
       ],
     }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src", "pages", "index.html"),
-      filename: "index.html",
-      chunks: ["main"],
-      inject: true,
-    }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src", "pages", "error.html"),
-      filename: "error.html",
-      chunks: ["error"],
-      inject: true,
-    }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src", "pages", "luta.html"),
-      filename: "luta.html",
-      chunks: ["luta"],
-      inject: true,
-    }),
     new NodePolyfillPlugin(),
     new MiniCssExtractPlugin({
       filename: "styles/[name].[contenthash].css",
       chunkFilename: "styles/[id].[contenthash].css",
     }),
-  ],
+  ].concat(htmlPluginEntries),
 };

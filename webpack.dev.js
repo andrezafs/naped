@@ -5,6 +5,7 @@ const path = require("path");
 
 module.exports = merge(CommonWebpackConfiguration, {
   mode: "development",
+  target: "web",
   output: {
     path: path.resolve(__dirname, "build"),
     publicPath: "/",
@@ -18,12 +19,9 @@ module.exports = merge(CommonWebpackConfiguration, {
     client: {
       overlay: false,
     },
-    open: false,
+    open: true,
     compress: true,
     hot: true,
     port: 3000,
-    devMiddleware: {
-      writeToDisk: true,
-    },
   },
 });
