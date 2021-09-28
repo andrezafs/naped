@@ -17,7 +17,7 @@ body {
 a {
     text-decoration: none;
     outline: 0;
-    font: 500 1.6rem 'Inter';
+    font: 500 1.6rem 'Inter Medium';
     color: $white;
 }
 
@@ -26,19 +26,19 @@ ul {
 }
 
 h1 {
-   font: 400 4.8rem 'Lexend Deca';
+   font:  4.8rem 'Lexend Deca Normal';
    color: $white;
 }
 h2 {
-    font: 500 2rem 'Inter'; 
+    font: 500 2rem 'Inter Medium'; 
     color: $grey-ligth;
 }
 h3 {
-    font: 400 2.4rem 'Lexend Deca';
+    font: 400 2.4rem 'Lexend Deca Normal';
     color: $white;
 }
 h4 {
-    font:  400 1.3rem  'Lexend Deca';
+    font:  400 1.3rem  'Lexend Deca Normal';
 }
 
 button {
