@@ -10,9 +10,7 @@
     }
   }
 }
-// #cont1 {
-//   height: 35rem;
-// }
+
 
 .container-news {
   margin-bottom: 5rem;
@@ -94,19 +92,7 @@
     }
   }
 
-  h4 {
-    font: 400 1.3rem "Lexend Deca Normal";
-    color: $white;
-    line-height: 2rem;
-  }
-  p {
-    font: 1.1rem "Inter Normal";
-    color: $grey-ligth;
-  }
-  span {
-    font: 600 1rem "Inter";
-    color: $grey-ligth;
-  }
+
   button {
     @include buttons(nw2);
   }
