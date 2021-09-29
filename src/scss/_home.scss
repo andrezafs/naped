@@ -5,8 +5,12 @@
   .text {
     width: 41%;
     padding: 11.5rem 0;
+
+  
     h2 {
+     
       margin-top: 1.1rem;
+   
     }
   }
 }
@@ -27,7 +31,7 @@
       height: 100%;
       padding: 1.7rem 3rem;
       p {
-        font-size: 2.4rem;
+        font: 2.4rem $lexend400;
       }
     }
   }
@@ -36,7 +40,7 @@
     flex-direction: column;
     justify-content: space-between;
     p {
-      font-size: 1.3rem;
+      font: 1.3rem $lexend400;
     }
     .box-left {
       height: 16.5rem;
