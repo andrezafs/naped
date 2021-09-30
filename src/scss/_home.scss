@@ -26,16 +26,12 @@
     #nw1 {
       height: 100%;
       padding: 1.7rem 3rem;
-      p {
-        font: 2.4rem $lexend400;
-      }
+  
     }
   }
   .left-news {
     @include flex-column-between;
-    p {
-      font: 1.3rem $lexend400;
-    }
+  
     .box-left {
       height: 16.5rem;
       padding: 1rem;
@@ -70,7 +66,6 @@
 
     &-infos {
       @include flex-between;
-
       height: 15.1rem;
 
       &-img {
