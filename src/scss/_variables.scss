@@ -35,6 +35,7 @@ $lexend400: 'Lexend Deca Normal';
 $inter400: 'Inter Reguar';
 $inter500: 'Inter Medium';
 
+
 // TAMANHO DAS FONTES 
 $f1 : 1.2rem; //12
 $f2 : $f1 * 2; // 24
@@ -47,7 +48,18 @@ $f8: $f1 + 0.8rem; // 20
  
 
 
-
+h1 {
+  font: $f1 $lexend400;
+}
+h2 {
+  font: $f3 $inter500;
+}
+h3 {
+  font: $f2 $lexend400;
+}
+h4 {
+  font: $f6 $lexend400;
+}
 @mixin buttons($id) {
   background-color: $color-primary;
   color: $white;
