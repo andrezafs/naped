@@ -1,29 +1,25 @@
+@import "header";
+
 #main-container {
-  display: flex;
-  flex-direction: column;
+  @include flex-column;
 
   .text {
     width: 41%;
     padding: 11.5rem 0;
 
-  
     h2 {
-     
       margin-top: 1.1rem;
-   
     }
   }
 }
 
-
 .container-news {
   margin-bottom: 5rem;
-  display: flex;
-  justify-content: space-between;
+  @include flex-between;
 
   .rigth-news {
     width: 68%;
-    
+
     .btn-new1 {
       @include buttons(nw1);
     }
@@ -36,9 +32,7 @@
     }
   }
   .left-news {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include flex-column-between;
     p {
       font: 1.3rem $lexend400;
     }
@@ -54,9 +48,7 @@
   }
 
   .new-box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    @include flex-column-between;
   }
 }
 
@@ -77,8 +69,7 @@
     margin-bottom: 3.5rem;
 
     &-infos {
-      display: flex;
-      justify-content: space-between;
+      @include flex-between;
 
       height: 15.1rem;
 
@@ -86,16 +77,13 @@
         width: 45%;
         @include background(nw2);
       }
-      
+
       &-texts {
         padding: 1rem 1.8rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+        @include flex-column-between;
       }
     }
   }
-
 
   button {
     @include buttons(nw2);
@@ -115,27 +103,4 @@
   font: 400 2.4rem "Lexend Deca";
   border-bottom: 0.3rem solid $color-primary;
   padding-bottom: 1.3rem;
-}
-.recent-news {
-  display: flex;
-  flex-direction: column;
-
-  h1 {
-    width: 30rem;
-    margin-bottom: 2.5rem;
-  }
-  &-box {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  &-box-info {
-    width: 28%;
-
-    margin-bottom: 4.1rem;
-
-    p {
-      font: 400 1.3rem "Lexend Deca";
-    }
-  }
 }

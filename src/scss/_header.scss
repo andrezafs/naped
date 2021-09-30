@@ -5,14 +5,10 @@
   }
   nav {
     height: 5.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    @include flex-between-center;
   
     .nav-list {
-      display: flex;
-      align-items: center;
-  
+      @include flex-center;
       a {
         position: relative;
         margin: 0 3rem;

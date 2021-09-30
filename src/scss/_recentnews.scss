@@ -1,0 +1,21 @@
+.recent-news {
+  @include flex-column;
+
+  h1 {
+    width: 30rem;
+    margin-bottom: 2.5rem;
+  }
+  &-box {
+    @include flex-between;
+    flex-wrap: wrap;
+  }
+  &-box-info {
+    width: 28%;
+
+    margin-bottom: 4.1rem;
+
+    p {
+      font: 400 1.3rem "Lexend Deca";
+    }
+  }
+}

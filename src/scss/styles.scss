@@ -1,12 +1,12 @@
 @import "reset";
 @import "variables";
 @import "mixins";
-
 @import "imgs";
-@import "header";
+
+
 @import "home";
 @import "footer";
 @import "luta";
 @import "error";
-
-@import "animes"
+@import 'recentnews';
+@import "animes";
