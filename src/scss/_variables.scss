@@ -46,20 +46,18 @@ $f6 : $f1 + 0.1rem; // 13
 $f7 : $f1 + 0.4rem; // 16
 $f8: $f1 + 0.8rem; // 20
  
-
+a {
+  font: $f7 $inter500;
+}
 
 h1 {
-  font: $f1 $lexend400;
+  font: $f4 $lexend400;
+  
 }
 h2 {
-  font: $f3 $inter500;
+  font: $f8 $inter500;
 }
-h3 {
-  font: $f2 $lexend400;
-}
-h4 {
-  font: $f6 $lexend400;
-}
+
 @mixin buttons($id) {
   background-color: $color-primary;
   color: $white;

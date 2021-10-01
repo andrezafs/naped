@@ -32,25 +32,38 @@ button {
 }
 
  
-.f1 {
-    font-size: $f1;
-}
+// .f1 {
+//     font-size: $f1;
+// }
 
-.f2 {
-    font-size: $f2;
-}
-.f3 {
-    font-size: $f3;
-}
-.f4 {
-    font-size: $f4;
-}
-.f5 {
-    font-size: $f5;
-}
-.f6 {
-    font-size: $f6;
-}
-.f7 {
-    font-size: $f7;
+// .f2 {
+//     font-size: $f2;
+// }
+// .f3 {
+//     font-size: $f3;
+// }
+// .f4 {
+//     font-size: $f4;
+// }
+// .f5 {
+//     font-size: $f5;
+// }
+// .f6 {
+//     font-size: $f6;
+// }
+// .f7 {
+//     font-size: $f7;
+// }
+
+.p-news {
+    &-banner {
+        font: $f2 $lexend400;
+    }
+    &-left {
+        font: $f6 $lexend400;
+    }
+    &-scroll {
+        font: $f5 $lexend400;
+    }
+
 }
