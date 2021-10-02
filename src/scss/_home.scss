@@ -14,15 +14,11 @@
 }
 
 .container-news {
-  margin-bottom: 5rem;
-  @include flex-between;
 
+  @include flex-between;
+  margin-bottom: 5rem;
   .rigth-news {
     width: 68%;
-
-    .btn-new1 {
-      @include buttons(nw1);
-    }
     #nw1 {
       height: 100%;
       padding: 1.7rem 3rem;
@@ -31,16 +27,12 @@
   }
   .left-news {
     @include flex-column-between;
-  
+    width: 28.2%;
     .box-left {
       height: 16.5rem;
       padding: 1rem;
-
-      .btn-new2 {
-        @include buttons(nw2);
-      }
     }
-    width: 28.2%;
+    
   }
 
   .new-box {
@@ -80,18 +72,12 @@
     }
   }
 
-  button {
-    @include buttons(nw2);
-  }
 }
 
 .box-left-scroll {
   height: 25rem;
   padding: 1rem;
 
-  .btn-new2 {
-    @include buttons(nw2);
-  }
 }
 
 #h1-scroll-left {

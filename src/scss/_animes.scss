@@ -1,41 +1,37 @@
-
 .container-animes {
-    display: flex;
-    flex-direction: column;
-    &-bg {
-        @include flex-column-center;
-        margin-top: 9.6rem;
-       
-        width: 100%; 
-        height: 30rem;
-     
-        @include background(naruto);
+  @include flex-column;
+  &-bg {
+    @include flex-column-center;
+    @include background(naruto);
     
-        p {
-            margin-top: 1.5rem;
-            color: $grey-ligth;
-        }
+    margin-top: 9.6rem;
+
+    width: 100%;
+    height: 30rem;
+    
+    p {
+      margin-top: 1.5rem;
+      color: $grey-ligth;
     }
+  }
 }
 .search {
-    @include flex;
-    margin-top: 4.2rem;
-    background: #282830;
-    width: 100%;
-    padding: 0 1.7rem ;
-    
+  @include flex;
+  margin-top: 4.2rem;
+  background: #282830;
+  width: 100%;
+  padding: 0 1.7rem;
 }
 input {
-    width: 100%;
-    height: 6rem;
-    border: none;
-    background: #282830;
-    font-size: 2rem;
-    color: $grey-ligth;
-    border: 0;
-    outline: none;
-    
+  width: 100%;
+  height: 6rem;
+  border: none;
+  background: #282830;
+  font-size: 2rem;
+  color: $grey-ligth;
+  border: 0;
+  outline: none;
 }
 .recent-news {
-    margin-top: 10rem;
+  margin-top: 10rem;
 }
