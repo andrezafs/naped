@@ -54,16 +54,21 @@ button {
 // .f7 {
 //     font-size: $f7;
 // }
-
-.p-news {
-    &-banner {
-        font: $f2 $lexend400;
+.p {
+    &-error {
+        font: $f8 $lexend400;
     }
-    &-left {
-        font: $f6 $lexend400;
+    &-news {
+        &-banner {
+            font: $f2 $lexend400;
+        }
+        &-left {
+            font: $f6 $lexend400;
+        }
+        &-scroll {
+            font: $f5 $lexend400;
+        }
+       
+    
     }
-    &-scroll {
-        font: $f5 $lexend400;
-    }
-
 }

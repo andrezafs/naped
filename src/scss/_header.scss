@@ -38,6 +38,6 @@ nav {
   button {
     border: 0.1rem solid $color-primary;
     color: $white;
-    c
+    @include buttons(btn-header);
   }
 }

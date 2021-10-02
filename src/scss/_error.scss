@@ -24,7 +24,7 @@
   height: 90vh;
 
   &-text {
-    width: 35%;
+    width: 45%;
     p {
       margin-top: 1.7rem;
       line-height: 3.4rem;
@@ -45,5 +45,6 @@
     color: $white;
     margin-top: 4.1rem;
     font-size: 1.8rem;
+    border-radius: .3rem;
   }
 }
