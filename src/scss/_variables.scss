@@ -57,7 +57,16 @@ h1 {
 h2 {
   font: $f8 $inter500;
 }
-
+.container-new-h1 {
+  font: $f3 $lexend400;
+}
+.container-new-h2 {
+  font: $f2 $inter500;
+}
+span {
+  font: 1.8rem $inter400;
+  margin-bottom: 2rem;
+}
 @mixin buttons($id) {
   background-color: $color-primary;
   color: $white;
