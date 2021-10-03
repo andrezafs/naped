@@ -14,7 +14,6 @@
 }
 
 .container-news {
-
   @include flex-between;
   margin-bottom: 5rem;
   .rigth-news {
@@ -22,7 +21,6 @@
     #nw1 {
       height: 100%;
       padding: 1.7rem 3rem;
-  
     }
   }
   .left-news {
@@ -32,7 +30,6 @@
       height: 16.5rem;
       padding: 1rem;
     }
-    
   }
 
   .new-box {
@@ -71,13 +68,11 @@
       }
     }
   }
-
 }
 
 .box-left-scroll {
   height: 25rem;
   padding: 1rem;
-
 }
 
 #h1-scroll-left {

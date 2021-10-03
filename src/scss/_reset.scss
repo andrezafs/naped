@@ -1,95 +1,89 @@
-@import 'variables';
+@import "variables";
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 html {
-    background-color: $black;
-    font-size: 62.5%;
-    color: $white;
+  background-color: $black;
+  font-size: 62.5%;
+  color: $white;
 }
 .maxWidth {
-    max-width: 120rem;
-    margin: 0 auto;
+  max-width: 120rem;
+  margin: 0 auto;
 }
 
 a {
-    text-decoration: none;
-    outline: 0;
-    color: $white;
-  
+  text-decoration: none;
+  outline: 0;
+  color: $white;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 button {
-    cursor: pointer;
-    border: none;
-    background: transparent;
+  cursor: pointer;
+  border: none;
+  background: transparent;
 }
 
 #logo {
-    font: $f2 $lexend400;
-    color: $color-primary;
+  font: $f2 $lexend400;
+  color: $color-primary;
 }
 
 a {
-    font: $f7 $inter500;
+  font: $f7 $inter500;
+}
+.h1 {
+  &-home {
+    font: $f4 $lexend400;
   }
-  .h1 {
-    &-home {
-        font: $f4 $lexend400;
-    }
-    &-news {
-        font: $f3 $lexend400;
-    }
-    &-error {
-        font: $f4 $lexend400;
-    }
+  &-news {
+    font: $f3 $lexend400;
   }
-
-  .h2 {
-     &-home {
-        font: $f8 $inter500;
-     }
-     &-news {
-        font: $f2 $lexend400;
-        color: $grey-ligth;
-    }
+  &-error {
+    font: $f4 $lexend400;
   }
-  
-  
-.p {
-    &-error {
-        font: $f8 $lexend400;
-    }
-    &-footer {
-        font: $f7 $inter500;
-    }
-    &-news {
-        &-banner {
-            font: $f2 $lexend400;
-        }
-        &-left {
-            font: $f6 $lexend400;
-        }
-        &-scroll {
-            font: $f5 $lexend400;
-        }
-       &-description {
-        font: $f2 $inter400;
-        color: $grey-ligth;
-       }
-    
-    }
 }
 
+.h2 {
+  &-home {
+    font: $f8 $inter500;
+  }
+  &-news {
+    font: $f2 $lexend400;
+    color: $grey-ligth;
+  }
+}
 
+.p {
+  &-error {
+    font: $f8 $lexend400;
+  }
+  &-footer {
+    font: $f7 $inter500;
+  }
+  &-news {
+    &-banner {
+      font: $f2 $lexend400;
+    }
+    &-left {
+      font: $f6 $lexend400;
+    }
+    &-scroll {
+      font: $f5 $lexend400;
+    }
+    &-description {
+      font: $f2 $inter400;
+      color: $grey-ligth;
+    }
+  }
+}
 
-  
 // .f1 {
 //     font-size: $f1;
 // }
