@@ -46,23 +46,7 @@ $f6 : $f1 + 0.1rem; // 13
 $f7 : $f1 + 0.4rem; // 16
 $f8: $f1 + 0.8rem; // 20
  
-a {
-  font: $f7 $inter500;
-}
 
-h1 {
-  font: $f4 $lexend400;
-  
-}
-h2 {
-  font: $f8 $inter500;
-}
-.container-new-h1 {
-  font: $f3 $lexend400;
-}
-.container-new-h2 {
-  font: $f2 $inter500;
-}
 span {
   font: 1.8rem $inter400;
   margin-bottom: 2rem;
