@@ -39,16 +39,26 @@ button {
 a {
     font: $f7 $inter500;
   }
-  
-  .h1-home {
-    font: $f4 $lexend400;
-    
+  .h1 {
+    &-home {
+        font: $f4 $lexend400;
+    }
+    &-news {
+        font: $f3 $lexend400;
+    }
   }
-  .h2-home {
-    font: $f8 $inter500;
-  }
-  
 
+  .h2 {
+     &-home {
+        font: $f8 $inter500;
+     }
+     &-news {
+        font: $f2 $lexend400;
+        color: $grey-ligth;
+    }
+  }
+  
+  
 .p {
     &-error {
         font: $f8 $lexend400;
@@ -70,6 +80,7 @@ a {
     
     }
 }
+
 
 
   
