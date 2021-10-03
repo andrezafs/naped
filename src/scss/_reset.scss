@@ -48,6 +48,9 @@ a {
   &-error {
     font: $f4 $lexend400;
   }
+  &-search {
+    font: $f4 $lexend400;
+  }
 }
 
 .h2 {
@@ -66,6 +69,9 @@ a {
   }
   &-footer {
     font: $f7 $inter500;
+  }
+  &-search {
+    font: $f8 $inter500;
   }
   &-news {
     &-banner {

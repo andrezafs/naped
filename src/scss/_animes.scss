@@ -1,17 +1,22 @@
-.container-animes {
+.container-search {
   @include flex-column;
   &-bg {
     @include flex-column-center;
-    @include background(naruto);
-    
+
     margin-top: 9.6rem;
 
     width: 100%;
     height: 30rem;
-    
+
     p {
       margin-top: 1.5rem;
       color: $grey-ligth;
+    }
+    &-text {
+      padding: 8.3rem 0;
+      p {
+        width: 53%;
+      }
     }
   }
 }
