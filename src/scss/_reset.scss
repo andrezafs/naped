@@ -76,7 +76,10 @@ a {
         &-scroll {
             font: $f5 $lexend400;
         }
-       
+       &-description {
+        font: $f2 $inter400;
+        color: $grey-ligth;
+       }
     
     }
 }
