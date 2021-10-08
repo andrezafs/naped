@@ -10,3 +10,9 @@
 @import "error";
 @import 'recentnews';
 @import "animes";
+
+@media screen and (max-width:900px){
+  .maxWidth {
+      padding: 0 3rem;
+  }
+}

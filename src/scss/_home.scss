@@ -16,6 +16,7 @@
 .container-news {
   @include flex-between;
   margin-bottom: 5rem;
+ 
   .rigth-news {
     width: 68%;
     #nw1 {
