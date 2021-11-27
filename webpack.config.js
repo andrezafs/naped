@@ -22,16 +22,12 @@ const htmlPluginEntries = templatesFiles.map(
 );
 
 module.exports = {
-  entry: path.resolve(__dirname, "src", "pages", "index.html"),
-  devtool: "inline-source-map",
-  output: {
-    path: path.resolve(__dirname, "build"),
-    filename: "[name].[contenthash].bundle.js",
-    publicPath: "/",
+  entry: {
+    app: path.resolve(__dirname, "src", "js", "app.js"),
   },
+  devtool: "inline-source-map",
   module: {
     rules: [
-      { test: /\.(html)$/, use: ["html-loader"] },
       { test: /\.(js)$/, exclude: /node_modules/, use: ["babel-loader"] },
       {
         test: /\.(scss)$/,
@@ -62,6 +58,13 @@ module.exports = {
           },
         ],
       },
+      {
+        test: /\.(jpg|jpeg|png|ico|svg)$/,
+        loader: "file-loader",
+        options: {
+          outputPath: "images",
+        },
+      }
     ],
   },
   plugins: [
@@ -69,12 +72,14 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         {
-          from: path.resolve(__dirname, "src", "assets", "images"),
+          from: path.resolve(__dirname, "src", "images"),
           to: path.resolve(__dirname, "build", "images"),
+          globOptions: { ignore: ["*.DS_Store", "*.gitkeep"] },
         },
         {
-          from: path.resolve(__dirname, "src", "assets", "fonts"),
+          from: path.resolve(__dirname, "src", "fonts"),
           to: path.resolve(__dirname, "build", "fonts"),
+          globOptions: { ignore: ["*.DS_Store", "*.gitkeep"] },
         },
       ],
     }),
